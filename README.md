@@ -8,8 +8,8 @@ Create a README file using a cmd application
 
 ## Table of Contents
 
-- [User Story](#user story)
-- [Acceptance Criteria](#acceptance criteria)
+- [User_Story](#user story)
+- [Acceptance_Criteria](#acceptance criteria)
 - [Usage](#usage)
 - [Installation](#installation)
 - [License](#license)
