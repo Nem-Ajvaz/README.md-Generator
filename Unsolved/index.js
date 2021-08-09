@@ -107,7 +107,7 @@ Against my better judgement I am not taking any contributions right now.
 ${response.contribution}
 ## Questions 
 For any further questions please reach out to my email :Email: ${response.email} \
-or message me on GitHub: [${response.github}](https://github.com/${response.github})
+or message me on GitHub: [${response.githubUsername}](https://github.com/${response.githubUsername})
 `;
 };
 
