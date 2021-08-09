@@ -63,7 +63,7 @@ const questions = () => {
       validate: input,
     },
     {
-      type: "checkbox",
+      type: "list",
       name: "license",
       choices: [
         "MIT",
@@ -73,7 +73,6 @@ const questions = () => {
         "MPL_2",
         "None",
       ],
-      default: ["MIT"],
     },
   ]);
 };
@@ -81,7 +80,8 @@ const questions = () => {
 // TODO: Create a function to write README file
 
 const generateREADME = (response) => {
-  const license = renderLicense(response.license[0]);
+  console.log(response.license);
+  const license = renderLicense(response.license);
 
   return `
 # ${response.title}
