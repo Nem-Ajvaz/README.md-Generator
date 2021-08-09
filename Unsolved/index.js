@@ -114,9 +114,7 @@ or message me on GitHub: (https://github.com/${response.githubUsername})
 // TODO: Create a function to initialize app
 const init = () => {
   questions()
-    .then((response) =>
-      writeReadMe("/Unsolved/README.md", generateREADME(response))
-    )
+    .then((response) => writeReadMe("README.md", generateREADME(response)))
     .then(() => console.log("Your README.md has been successfully generated."))
     .catch((err) => console.error(err));
 };
