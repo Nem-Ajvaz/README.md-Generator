@@ -107,14 +107,16 @@ Against my better judgement I am not taking any contributions right now.
 ${response.contribution}
 ## Questions 
 For any further questions please reach out to my email :Email: ${response.email} \
-or message me on GitHub: [${response.githubUsername}](https://github.com/${response.githubUsername})
+or message me on GitHub: (https://github.com/${response.githubUsername})
 `;
 };
 
 // TODO: Create a function to initialize app
 const init = () => {
   questions()
-    .then((response) => writeReadMe("README.md", generateREADME(response)))
+    .then((response) =>
+      writeReadMe("/Unsolved/README.md", generateREADME(response))
+    )
     .then(() => console.log("Your README.md has been successfully generated."))
     .catch((err) => console.error(err));
 };

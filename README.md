@@ -2,14 +2,18 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Video Link
+
+https://drive.google.com/file/d/1U6nnBnD0QhxlfE25686KWcSnThmrHZcU/view?usp=sharing
+
 ## Description
 
 Create a README file using a cmd application
 
 ## Table of Contents
 
-- [User_Story](#user story)
-- [Acceptance_Criteria](#acceptance criteria)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
 - [Usage](#usage)
 - [Installation](#installation)
 - [License](#license)
@@ -53,4 +57,4 @@ Navigate the terminal to index.js in the cloned repo and run `node index.js` to 
 
 ## Questions
 
-For any further questions please reach out to my email :Email: nemanja.ajvaz@gmail.com or message me on GitHub: [undefined](https://github.com/undefined)
+For any further questions please reach out to my email :Email: nemanja.ajvaz@gmail.com or message me on GitHub:(https://github.com/Nem-Ajvaz)
