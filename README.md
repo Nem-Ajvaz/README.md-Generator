@@ -9,9 +9,9 @@ Create a README file using a cmd application
 ## Table of Contents
 
 - [User Story](#user story)
-- [Acceptance Criteria] (#acceptance criteria)
+- [Acceptance Criteria](#acceptance criteria)
 - [Usage](#usage)
-- [Installation] (#installation)
+- [Installation](#installation)
 - [License](#license)
 - [Questions](#questions)
 
